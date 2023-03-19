@@ -157,3 +157,8 @@ right-desc{
     /* display: flex; */
 }
 
+.tooltip {
+    position: relative;
+  display: inline-block;
+  border-bottom: 4px dotted black; 
+  }
