@@ -45,7 +45,7 @@ body {
     flex-grow: 4;
     flex-direction: column;
 
-    background-image: url("../img/Morioh\ Sky\ Texture_Blue.png");
+    background-image: url("../img/modern/Morioh\ Sky\ Texture_Blue.avif");
     background-repeat: no-repeat;
 
 }
@@ -55,9 +55,9 @@ body {
     padding-bottom: 30px;
 } */
 
-.pfp {
+/* .pfp {
     background-image: url("../img/modern/Morioh\ Sky\ Texture_Blue.avif");
-}
+} */
 
 .profile img {
     width: 250px;
