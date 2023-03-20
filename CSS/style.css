@@ -176,17 +176,15 @@ right-desc {
     font-size: 16px; */
 }
 
-/* button:enabled {
-    /* color: var(--bg-blue-color); */
-    /* background-color: var(--bg-blue-color);
-    border: none;
-    color: var(--font-white-color);
-} */ 
-
 .icons {
     font-size: 30px;
 }
 
-/* . {
-    color: var(--main-dark-blue-color);
-} */
+button{
+    background-color: var(--bg-blue-color);
+    border: none;
+}
+
+button:hover{
+    color: var(--font-white-color);
+}
