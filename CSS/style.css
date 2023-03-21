@@ -166,25 +166,39 @@ right-desc {
         'opsz' 48
 }
 
-.btn {
-    /* width: 3.5em;
+/* .btn {
+    width: 3.5em;
     height: 2.5em;
-    padding-bottom: 20px; */
+    padding-bottom: 20px;
 
-    /* background-color: black;
+    background-color: black;
     padding: 12px 16px;
-    font-size: 16px; */
-}
+    font-size: 16px;
+} */
 
 .icons {
     font-size: 30px;
 }
 
-button{
+button {
     background-color: var(--bg-blue-color);
     border: none;
 }
 
-button:hover{
+button:hover {
     color: var(--font-white-color);
+}
+
+#up {
+    background-color:  var(--main-dark-blue-color);
+    color: var(--font-white-color);
+    position: absolute;
+
+    left: 85rem;
+    top: 172rem;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 7px;
 }
