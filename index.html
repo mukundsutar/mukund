@@ -11,77 +11,121 @@
     <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/style.css">
 
-    <title>Portfolio</title>
+    <title>Mukund Sutar - Software Engineer</title>
 
 </head>
 
 <body>
+
     <div class="container">
         <div class="left">
             <div class="profile">
-                <img src="img/MyPhoto.png" alt="Image unable to Load">
+                <img src="img/modern/MyPhoto.avif" alt="Image unable to Load">
                 <!-- <div class="pfp"></div> -->
             </div>
 
             <div class="buttons"><a href="#about_me">About Me</div>
 
-            <div class="buttons" id="skills"><a href="#skill">Skills</a> </div>
+            <div class="buttons" id="skills"><a href="#skill">Skills</a>
+            </div>
 
-            <div class="buttons"><a href="#edu">Education</a></div>
-
-            <div class="buttons"><a href="#exp">Experience</a></div>
-
+            <!-- <div class="buttons"><a href="#edu">Education</a></div> -->
+            <!-- <div class="buttons"><a href="#exp">Experience</a></div> -->
             <div class="buttons"><a href="#res">Position of
                     Responsibilty</a></div>
 
             <!-- <div class="buttons"><a href="#hobby">Hobbies</a>
             </div> -->
+            <div class="buttons"><a href="documents/Mukund Sutar_Resume.pdf" target="_blank">Resume / CV</a>
+            </div>
 
             <div class="buttons"><a href="#contact">Contact</a>
             </div>
         </div>
         <div class="right">
             <div id="title">
-                <span>I am <br> a Developer</span>
-                <p><span>And I made this with 100% with love and some CSS</span></p>
+                <span>I am <br> Mukund Sutar</span>
+                <p><span>your friendly neighbourhood Developer</span></p>
             </div>
 
-            <div class="desc" id="about_me">About Me:<br><right-desc>I Solemnly swear that I am a Developer</right-desc>
+            <div class="desc" id="about_me">About Me:<br><right-desc>
+                    <!-- I Solemnly swear that I am a Developer.  <br>-->
+                    Hello there! <br>
+                    My Name is Mukund Sutar. <br>Working with my hands
+                    to make magic happen on the internet.<br><br>
+                    Front-End Dev, DSA enthusiast, Sci-fi movies
+                    enjoyer, part-time gamer, and also referred as Car
+                    guy.
+                    I am a Software Engineer from Pune, India. <br>
+
+                    I'm currently attending my last year Graduation in
+                    Information Techonology major. Working my way to
+                    becoming the finest Software Developer. <br> <br> I
+                    am seeking new opportunities to endeavour a
+                    career in developing solutions to help people. <br>I'm
+                    quietly confident, naturally curious, and
+                    perpetually working on improving my ability arsenal
+                    one problem at a time. </right-desc>
             </div>
 
-            <div class="desc" id="skill">Skills:<br><right-desc>Java, Python, C, C++, HTML, CSS, JavaScript,
-                    SQL</right-desc></div>
-
-            <div class="desc" id="edu">Education:
+            <div class="desc" id="skill">Skills:<br><right-desc>Java,
+                    Python, C, C++, HTML, CSS, JavaScript,
+                    SQL, and also coherent problem solving.</right-desc></div>
+            <!-- <div class="desc" id="edu">Education:
                 <right-desc><br> B.E. IT | PDEA, College of Engineering Manjari
                     <br> Diploma (Polytechnic) CO | Y. B. Patil Polytechnic, Akurdi
                     <br> X | Vidya Niketan English Medium School</right-desc>
+            </div> -->
+            <!-- <div class="desc" id="exp">Experience:<br>I Solemnly swear that I am a Developer</div> -->
+            <div class="desc" id="res">Position of Responsibilty:<br><itsa-desc><right-desc>In-charge
+                        | ITSA, Student
+                        Association
+                        Committee <br>Organized various traditional,
+                        cultural & technical
+                        events for 300+ college students.<br></right-desc>
+                    <!-- <img class="itsa" src="img/itsa.png" alt=""></itsa-desc> -->
             </div>
 
-            <!-- <div class="desc" id="exp">Experience:<br>I Solemnly swear that I am a Developer</div> -->
-
-            <div class="desc" id="res">Position of Responsibilty:<br><itsa-desc><right-desc>In-charge | ITSA, Student Association
-                Committee <br>Organized various traditional, cultural & technical
-                events for 300+ college students.<br></right-desc>
-            <!-- <img class="itsa" src="img/itsa.png" alt=""></itsa-desc> -->
-        </div>
-
             <!-- <div class="desc" id="hobby">Hobbies:<br>I Solemnly swear that I am a Developer</div> -->
-
-            <div class="desc" id="contact">Contact:<br><span class="material-symbols-outlined">
+            <div class="desc" id="contact">Contact me here:<br><span class="material-symbols-outlined">
                     mail
-                </span><right-desc class="email"> mukundsutar1512@gmail.com</right-desc>
-                <br><span class="material-symbols-outlined">
+                </span><right-desc class="email" id="text-email">
+                    mukundsutar1512@gmail.com </right-desc><button class="copy-text" id="btn" onclick="copyTextEmail()">
+                    <ion-icon name="copy-outline" class="icons">
+                    </ion-icon></button>
+                <br>
+
+                <span class="material-symbols-outlined">
                     call
-                </span><right-desc class="phone"> (+91) 8275812026</right-desc>
+                </span><right-desc class="phone" id="text-phone">
+                    (+91) 8275812026 </right-desc><button class="copy-text" id="btn" onclick="copyTextPhone()"><ion-icon
+                        name="copy-outline" class="icons"></ion-icon></button>
+            </div>
+
+            <div class="backToTop">
+                <button id="up"><a href="#title"><ion-icon name="arrow-up-sharp" class="icons" style="font-size: 25px; "></ion-icon></a></ion-icon></button>
             </div>
         </div>
     </div>
+
+
+    <script src="js/copy.js">
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        function CopyToClipboard(id) {
+            var r = document.createRange();
+            r.selectNode(document.getElementById(id));
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(r);
+            document.execCommand('copy');
+            window.getSelection().removeAllRanges();
+        }
+    </script>
 </body>
 
 </html>

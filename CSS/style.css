@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
 
-:root{
-    --main-dark-color: #181823;
-    --bg-blue: #3f64bc;
+:root {
+    --main-dark-blue-color: #181823;
+    --bg-blue-color: #3f64bc;
     --cyan-color: #C0EEF2;
-    --font-white: #E9F8F9;
+    --font-white-color: #E9F8F9;
+    --font-heading-color: #03001C;
 }
 
 html {
@@ -30,7 +31,7 @@ body {
     align-self: flex-start;
     flex-direction: column;
     align-items: center;
-    background-color: var(--main-dark-color);
+    background-color: var(--main-dark-blue-color);
     /* border: 1px solid black; */
     flex-grow: 1;
     height: 100vh;
@@ -39,12 +40,12 @@ body {
 
 .right {
     display: flex;
-    background-color: var(--bg-blue);
+    background-color: var(--bg-blue-color);
     /* border: 1px solid black; */
     flex-grow: 4;
     flex-direction: column;
 
-    background-image: url("../img/Morioh\ Sky\ Texture_Blue.png");
+    background-image: url("../img/modern/Morioh\ Sky\ Texture_Blue.avif");
     background-repeat: no-repeat;
 
 }
@@ -54,9 +55,9 @@ body {
     padding-bottom: 30px;
 } */
 
-.pfp {
-    background-image: url("../img/MyPhoto.png");
-}
+/* .pfp {
+    background-image: url("../img/modern/Morioh\ Sky\ Texture_Blue.avif");
+} */
 
 .profile img {
     width: 250px;
@@ -74,11 +75,11 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 24px;
     flex-grow: 1;
-    color: var(--font-white);
+    color: var(--font-white-color);
 }
 
 a {
-    color: var(--font-white);
+    color: var(--font-white-color);
     text-decoration: none;
 }
 
@@ -108,49 +109,96 @@ a {
     padding-bottom: 0px;
 }
 
-.desc{
+.desc {
     /* font-family: 'Playfair Display', serif; */
     font-family: 'Nunito Sans', sans-serif;
     padding: 100px;
     font-size: 1.5em;
     padding-right: 10px;
     padding-bottom: 0px;
-    color: var(--font-white);
+    color: var(--main-dark-color);
 }
 
-#contact{
+#contact {
     padding-bottom: 60px;
 }
 
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 600,
+        'GRAD' 0,
+        'opsz' 48
 }
 
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 600,
+        'GRAD' 0,
+        'opsz' 48
 }
 
 /* div p{
     font-size: 1em;
 } */
 
-right-desc{
+right-desc {
     /* font-family: 'Playfair Display', serif; */
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.5em;
+    color: var(--font-white-color);
 }
 
-.email, .phone{
+.email,
+.phone {
     font-family: 'Nunito Sans', sans-serif;
-    color: var(--font-white);
+    color: var(--font-white-color);
     /* border: 1px solid #242423; */
     /* display: flex; */
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+/* .btn {
+    width: 3.5em;
+    height: 2.5em;
+    padding-bottom: 20px;
+
+    background-color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+} */
+
+.icons {
+    font-size: 30px;
+}
+
+button {
+    background-color: var(--bg-blue-color);
+    border: none;
+}
+
+button:hover {
+    color: var(--font-white-color);
+}
+
+#up {
+    background-color:  var(--main-dark-blue-color);
+    color: var(--font-white-color);
+    position: absolute;
+
+    left: 85rem;
+    top: 172rem;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 7px;
 }
