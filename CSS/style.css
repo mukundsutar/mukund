@@ -49,10 +49,10 @@ body {
 
 }
 
-.profile {
-    /* margin-top: 40px; */
-    /* padding-bottom: 30px; */
-}
+/* .profile {
+    margin-top: 40px; *
+    padding-bottom: 30px;
+} */
 
 .pfp {
     background-image: url("../img/MyPhoto.png");
@@ -115,7 +115,7 @@ a {
     font-size: 1.5em;
     padding-right: 10px;
     padding-bottom: 0px;
-    color: var(--main-dark-color);
+    color: var(--font-white);
 }
 
 #contact{
