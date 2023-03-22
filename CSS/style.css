@@ -22,6 +22,7 @@ body {
     flex-direction: row;
     /* border: 1px solid black; */
     height: 100%;
+    /* flex-wrap: wrap-reverse; */
 }
 
 .left {
@@ -201,4 +202,11 @@ button:hover {
     height: 40px;
 
     border-radius: 7px;
+}
+
+#backTop{
+    width: 100%;
+    /* border: 2px solid var(--main-dark-blue-color); */
+    background-color: var(--main-dark-blue-color);
+    height: 3em;
 }
