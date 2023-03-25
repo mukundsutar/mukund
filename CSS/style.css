@@ -239,7 +239,7 @@ button:hover {
 
 #UP-icon{
     width: 100%;
-    width: 47.5em;
+    /* width: 47.5em; */
     background-color: var(--main-dark-blue-color);
     height: 2.2rem;
 }
