@@ -275,3 +275,8 @@ javascript-lang{
 sql-lang{
     color: #ff0000;
 }
+
+highlight{
+    text-decoration: underline black;
+    color: #dee2ff;
+}
