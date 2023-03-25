@@ -243,3 +243,35 @@ button:hover {
     background-color: var(--main-dark-blue-color);
     height: 2.2rem;
 }
+
+java-lang{
+    color: #ee82ee;
+}
+
+py-lang{
+    color: #FFD43B;
+}
+
+c-lang{
+    color: #4b0082;
+}
+
+cpp-lang{
+    color: #23C9FF;
+}
+
+html-lang{
+    color: #ffa500;
+}
+
+css-lang{
+    color: #7DCD85;
+}
+
+javascript-lang{
+    color: #ffff00;
+}
+
+sql-lang{
+    color: #ff0000;
+}
