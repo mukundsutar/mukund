@@ -277,7 +277,7 @@ sql-lang {
 }
 
 highlight {
-    text-decoration: underline black;
+    text-decoration: underline 3px solid black;
     color: #dee2ff;
 }
 
