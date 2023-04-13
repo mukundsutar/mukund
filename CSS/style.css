@@ -232,37 +232,72 @@ button:hover {
     height: 2.2rem;
 }
 
+/* individual language css */
 java-lang {
     color: #ee82ee;
+}
+java-lang:hover {
+    color: var(--font-white-color);
+    text-shadow: 0 0 20px #ffffff, 0 0 30px #ee82ee, 0 0 40px #ee82ee, 0 0 50px #ee82ee, 0 0 60px #ee82ee, 0 0 70px #ee82ee, 0 0 80px #ee82ee;
 }
 
 py-lang {
     color: #FFD43B;
 }
+py-lang:hover {
+    color: var(--font-white-color);
+    text-shadow: 0 0 20px #ffffff, 0 0 30px #FFD43B, 0 0 40px #FFD43B, 0 0 50px #FFD43B, 0 0 60px #FFD43B, 0 0 70px #FFD43B, 0 0 80px #FFD43B;
+}
 
 c-lang {
     color: #4b0082;
+}
+c-lang:hover {
+    color: var(--font-white-color);
+    text-shadow: 0 0 20px #ffffff, 0 0 30px #4b0082, 0 0 40px #4b0082, 0 0 50px #4b0082, 0 0 60px #4b0082, 0 0 70px #4b0082, 0 0 80px #4b0082;
 }
 
 cpp-lang {
     color: #23C9FF;
 }
+cpp-lang:hover {
+    color: var(--font-white-color);
+    text-shadow: 0 0 20px #ffffff, 0 0 30px #23C9FF, 0 0 40px #23C9FF, 0 0 50px #23C9FF, 0 0 60px #23C9FF, 0 0 70px #23C9FF, 0 0 80px #23C9FF;
+}
 
 html-lang {
     color: #ffa500;
+}
+html-lang:hover {
+    color: var(--font-white-color);
+    text-shadow: 0 0 20px #ffffff, 0 0 30px #ffa500, 0 0 40px #ffa500, 0 0 50px #ffa500, 0 0 60px #ffa500, 0 0 70px #ffa500, 0 0 80px #ffa500;
 }
 
 css-lang {
     color: #7DCD85;
 }
+css-lang:hover {
+    color: var(--font-white-color);
+    text-shadow: 0 0 20px #ffffff, 0 0 30px #7DCD85, 0 0 40px #7DCD85, 0 0 50px #7DCD85, 0 0 60px #7DCD85, 0 0 70px #7DCD85, 0 0 80px #7DCD85;
+}
 
 javascript-lang {
     color: #ffff00;
+}
+javascript-lang:hover {
+    color: var(--font-white-color);
+    text-shadow: 0 0 20px #ffffff, 0 0 30px #ffff00, 0 0 40px #ffff00, 0 0 50px #ffff00, 0 0 60px #ffff00, 0 0 70px #ffff00, 0 0 80px #ffff00;
 }
 
 sql-lang {
     color: #ff0000;
 }
+sql-lang:hover {
+    color: var(--font-white-color);
+    text-shadow: 0 0 20px #ffffff, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000;
+}
+
+
 
 highlight {
     text-decoration: underline 3px solid black;
