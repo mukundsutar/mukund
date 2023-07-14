@@ -239,7 +239,7 @@ java-lang {
 java-lang:hover {
     color: var(--font-white-color);
     text-shadow: 0 0 20px #ffffff, 0 0 30px #ee82ee, 0 0 40px #ee82ee, 0 0 50px #ee82ee, 0 0 60px #ee82ee, 0 0 70px #ee82ee, 0 0 80px #ee82ee;
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
 }
 
 py-lang {
