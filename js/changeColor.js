@@ -1,5 +1,5 @@
-
-let colours = [
+// Define some colours
+var colours = [
     "red",
     "orange",
     "yellow",
@@ -8,27 +8,25 @@ let colours = [
     "purple"    
 ];
 
-
-let text = document.getElementById('txt').innerHTML.split(" ");
+// Retrieve the words
+var text = $("#txt").html().split(", ");
 console.log(text);
 
 
-// $("p").empty();
-while (document.getElementById('txt').firstChild) {
-    document.getElementById('txt').removeChild(document.getElementById('txt').firstChild);
-}
+// Empty the element
+$("#txt").empty();
 
-
-text.forEach(function(word, i){
-	if(i != text.length) {
-        word += " "; 
+// Iterate over the words
+$.each(text, function(i, word) {
+    if(i != text.length) {
+        word += ""; // Add space after word 
     }
     
-     
-    let colourIndex = Math.floor(Math.random() * colours.length);
+     // Get random color
+    var colourIndex = Math.floor(Math.random() * colours.length);
     
     $("<span>")
-        .innerHTML = word
+        .html(word).append(", ")
         .css("color", colours[colourIndex])
-        .appendTo($("p"));
+        .appendTo($("#txt"));
 });
