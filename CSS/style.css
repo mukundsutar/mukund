@@ -124,7 +124,13 @@ a {
 
 #res under{
     text-decoration: underline;
-    color: var(--font-white-color);
+    color: #00293d;
+    font-size: 2.2rem;
+}
+
+#res under a{
+    text-decoration: underline;
+    color: #00293d;
 }
 
 #res no{
@@ -302,7 +308,14 @@ sql-lang:hover {
 
 highlight {
     text-decoration: underline 3px solid black;
-    color: #dee2ff;
+    color: var(--font-white-color);
+    
+}
+
+highlight:hover {
+    text-decoration: underline 3px solid black;
+    color: #EE7A7C;
+    
 }
 
 /* for smaller screens */
