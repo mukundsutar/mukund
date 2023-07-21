@@ -1,0 +1,12 @@
+#title>img:nth-child(1) {
+    position: relative;
+    margin-top: -16.5rem;
+    margin-left: -8rem;
+}
+
+.center_text{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
