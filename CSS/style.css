@@ -2,7 +2,7 @@
 
 :root {
     --main-dark-blue-color: #181823;
-    --bg-blue-color: #3f64bc;
+    --bg-blue-color: #4064bb;
     --cyan-color: #C0EEF2;
     --font-white-color: #E9F8F9;
     --font-heading-color: #03001C;
@@ -108,7 +108,7 @@ a {
 }
 
 .right #about_me {
-    margin-top: 24em;
+    margin-top: -6.5rem;
     padding: 3.5em;
     padding-bottom: 0px;
     /* font-size: 1.5em; */
