@@ -26,7 +26,9 @@ $.each(text, function(i, word) {
     var colourIndex = Math.floor(Math.random() * colours.length);
     
     $("<span>")
-        .html(word).append(", ")
-        .css("color", colours[colourIndex])
-        .appendTo($("#txt"));
+    .html(word)
+    .css("color", colours[colourIndex])
+    .appendTo($("#txt"));
+    $("#txt").append(", ")
 });
+

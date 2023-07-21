@@ -318,6 +318,10 @@ highlight:hover {
     
 }
 
+#skill p{
+    display: inline 
+}
+
 /* for smaller screens */
 @media (max-width: 1111px) {
     .container {
