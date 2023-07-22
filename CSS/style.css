@@ -15,7 +15,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body {  
+body {
     margin: 0px;
     padding: 0px;
 }
@@ -55,6 +55,7 @@ body {
     /* background-image: url("../img/modern/Morioh\ Sky\ Texture_Blue.avif"); */
     background-repeat: no-repeat;
     padding-right: 0px;
+    /* padding-left: 200px; */
     z-index: -1;
     /* filter: blur(5px); */
 
@@ -109,17 +110,16 @@ a {
     background-color: aliceblue;
 }
 
-#title > img:nth-child(1) {
+#title > img:nth-child(1){
     position: relative;
-    margin-top: -16.5rem;
-    margin-left: -8rem;
+    /* margin-left: -12    rem; */
 }
 
-.center_text{
+.center_text {
     position: absolute;
-  top: 20rem;
-  left: 56rem;
-  transform: translate(-50%, -50%);
+    top: 20rem;
+    left: 56rem;
+    transform: translate(-50%, -50%);
 }
 
 .right #about_me {
@@ -139,26 +139,26 @@ a {
     color: var(--font-section-color);
 }
 
-.desc a{
+.desc a {
     color: var(--font-section-color);
 }
 
-#res under{
+#res under {
     text-decoration: underline;
     color: var(--font-heading-color);
     font-size: 2.2rem;
 }
 
-#res under a{
+#res under a {
     text-decoration: underline;
     color: var(--font-heading-color);
 }
 
-#res no{
+#res no {
     color: var(--font-white-color);
 }
 
-#res p{
+#res p {
     margin-top: .2em;
     color: var(--font-white-color);
 }
@@ -177,7 +177,7 @@ a {
 
 .material-symbols-outlined {
     font-variation-settings:
-    'FILL' 0,
+        'FILL' 0,
         'wght' 600,
         'GRAD' 0,
         'opsz' 48
@@ -200,8 +200,8 @@ right-desc {
 
 .material-symbols-outlined {
     font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
+        'FILL' 0,
+        'wght' 400,
         'GRAD' 0,
         'opsz' 48
 }
@@ -232,7 +232,7 @@ button:hover {
     padding-top: 4px;
     background-color: var(--main-dark-blue-color);
     /* border: 2px solid white; */
-    /* color: var(--font-white-color);
+/* color: var(--font-white-color);
     border-radius: 4px;
     
     animation-name: frame1;
@@ -263,6 +263,7 @@ button:hover {
 java-lang {
     color: #ee82ee;
 }
+
 java-lang:hover {
     color: var(--font-white-color);
     text-shadow: 0 0 20px #ffffff, 0 0 30px #ee82ee, 0 0 40px #ee82ee, 0 0 50px #ee82ee, 0 0 60px #ee82ee, 0 0 70px #ee82ee, 0 0 80px #ee82ee;
@@ -272,6 +273,7 @@ java-lang:hover {
 py-lang {
     color: #FFD43B;
 }
+
 py-lang:hover {
     color: var(--font-white-color);
     text-shadow: 0 0 20px #ffffff, 0 0 30px #FFD43B, 0 0 40px #FFD43B, 0 0 50px #FFD43B, 0 0 60px #FFD43B, 0 0 70px #FFD43B, 0 0 80px #FFD43B;
@@ -280,6 +282,7 @@ py-lang:hover {
 c-lang {
     color: #4b0082;
 }
+
 c-lang:hover {
     color: var(--font-white-color);
     text-shadow: 0 0 20px #ffffff, 0 0 30px #4b0082, 0 0 40px #4b0082, 0 0 50px #4b0082, 0 0 60px #4b0082, 0 0 70px #4b0082, 0 0 80px #4b0082;
@@ -288,6 +291,7 @@ c-lang:hover {
 cpp-lang {
     color: #23C9FF;
 }
+
 cpp-lang:hover {
     color: var(--font-white-color);
     text-shadow: 0 0 20px #ffffff, 0 0 30px #23C9FF, 0 0 40px #23C9FF, 0 0 50px #23C9FF, 0 0 60px #23C9FF, 0 0 70px #23C9FF, 0 0 80px #23C9FF;
@@ -296,6 +300,7 @@ cpp-lang:hover {
 html-lang {
     color: #ffa500;
 }
+
 html-lang:hover {
     color: var(--font-white-color);
     text-shadow: 0 0 20px #ffffff, 0 0 30px #ffa500, 0 0 40px #ffa500, 0 0 50px #ffa500, 0 0 60px #ffa500, 0 0 70px #ffa500, 0 0 80px #ffa500;
@@ -304,6 +309,7 @@ html-lang:hover {
 css-lang {
     color: #7DCD85;
 }
+
 css-lang:hover {
     color: var(--font-white-color);
     text-shadow: 0 0 20px #ffffff, 0 0 30px #7DCD85, 0 0 40px #7DCD85, 0 0 50px #7DCD85, 0 0 60px #7DCD85, 0 0 70px #7DCD85, 0 0 80px #7DCD85;
@@ -312,6 +318,7 @@ css-lang:hover {
 javascript-lang {
     color: #ffff00;
 }
+
 javascript-lang:hover {
     color: var(--font-white-color);
     text-shadow: 0 0 20px #ffffff, 0 0 30px #ffff00, 0 0 40px #ffff00, 0 0 50px #ffff00, 0 0 60px #ffff00, 0 0 70px #ffff00, 0 0 80px #ffff00;
@@ -320,6 +327,7 @@ javascript-lang:hover {
 sql-lang {
     color: #ff0000;
 }
+
 sql-lang:hover {
     color: var(--font-white-color);
     text-shadow: 0 0 20px #ffffff, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000;
@@ -330,17 +338,17 @@ sql-lang:hover {
 highlight {
     text-decoration: underline 3px solid black;
     color: var(--font-white-color);
-    
+
 }
 
 highlight:hover {
     text-decoration: underline 3px solid black;
     color: #EE7A7C;
-    
+
 }
 
-#skill p{
-    display: inline 
+#skill p {
+    display: inline
 }
 
 /* for smaller screens */
@@ -355,54 +363,54 @@ highlight:hover {
         height: 100vh;
     }
 
-    .right{
+    .right {
         padding-left: 3em;
         padding-right: 3em;
         font-size: 1em;
     }
 
-    .desc{
+    .desc {
         padding-left: 0px;
         font-size: 1.5em;
         /* text-align: justify; */
     }
 
-    .right #about_me{
+    .right #about_me {
         padding-left: 0px;
         margin-top: 23em;
         text-align: justify;
         padding-right: 1.1em;
     }
 
-    right-desc{
+    right-desc {
         font-size: 1.2em;
         /* text-align: justify; */
     }
 
-    #skill{
+    #skill {
         text-align: justify;
     }
 
-    #title{
+    #title {
         padding-top: 4.5em;
         padding-left: .2em;
         font-size: 3.5em;
         text-align: left;
     }
 
-    .email{
+    .email {
         word-wrap: break-word;
     }
-    
-    .profile img{
+
+    .profile img {
         padding-top: 2.5em;
     }
 }
 
-/* .right > #title, .right > #about_me, .right > #skill, .right > #res, .right > #contact{
-    padding-left: 0px;
+.right > #about_me, .right > #skill, .right > #res, .right > #contact{
+    padding-left: 9rem;
 }
 
-.right > #UP-icon{
+/* .right > #UP-icon{
     padding-left: -100px;
 } */
