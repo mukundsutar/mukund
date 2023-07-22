@@ -409,6 +409,9 @@ highlight:hover {
 
 .right > #about_me, .right > #skill, .right > #res, .right > #contact{
     padding-left: 9rem;
+    padding-right: 6rem;
+    text-align:justify;
+word-spacing:-2px;
 }
 
 /* .right > #UP-icon{
