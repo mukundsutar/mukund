@@ -82,13 +82,13 @@ body {
     color: #EAF0CE;
 }
 
-.buttons > a{
+.buttons>a {
     color: #E1F4F4;
     padding-top: 20px;
     text-decoration: none;
 }
 
-.buttons > a:hover{
+.buttons>a:hover {
     color: #D04E6A;
     font-size: 2rem;
     text-decoration: line-through 5px;
@@ -117,7 +117,7 @@ body {
     background-color: aliceblue;
 }
 
-#title > img:nth-child(1){
+#title>img:nth-child(1) {
     position: relative;
     /* margin-left: -12    rem; */
 }
@@ -414,9 +414,12 @@ highlight:hover {
     }
 }
 
-.right > #about_me, .right > #skill, .right > #res, .right > #contact{
+.right>#about_me,
+.right>#skill,
+.right>#res,
+.right>#contact {
     padding-left: 9rem;
     padding-right: 6rem;
-    text-align:justify;
-word-spacing:-2px;
+    text-align: justify;
+    word-spacing: -2px;
 }
