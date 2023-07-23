@@ -423,3 +423,7 @@ highlight:hover {
     text-align: justify;
     word-spacing: -2px;
 }
+
+ion-icon{
+    color: var(--font-white-color);
+}
