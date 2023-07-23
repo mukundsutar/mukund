@@ -1,0 +1,21 @@
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul li {
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+}
+ul:hover a {
+  color: #EAF0CE;
+}
+ul:hover a:hover {
+  color: #D04E6A;
+  box-shadow: 0 2px 0 0 currentcolor;
+}

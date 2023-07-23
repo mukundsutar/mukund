@@ -77,14 +77,20 @@ body {
     /* margin: 10px; */
     /* font-family: 'Neucha', cursive; */
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     flex-grow: 1;
-    color: var(--font-white-color);
+    color: #EAF0CE;
 }
 
-a {
-    color: var(--font-white-color);
+.buttons > a{
+    color: #E1F4F4;
+    padding-top: 20px;
     text-decoration: none;
+}
+
+.buttons > a:hover{
+    color: #D04E6A;
+    font-size: 2rem;
 }
 
 #title {
@@ -413,7 +419,3 @@ highlight:hover {
     text-align:justify;
 word-spacing:-2px;
 }
-
-/* .right > #UP-icon{
-    padding-left: -100px;
-} */
