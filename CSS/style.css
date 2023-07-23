@@ -91,6 +91,7 @@ body {
 .buttons > a:hover{
     color: #D04E6A;
     font-size: 2rem;
+    text-decoration: line-through 5px;
 }
 
 #title {
@@ -358,7 +359,7 @@ highlight:hover {
 }
 
 /* for smaller screens */
-@media (max-width: 1111px) {
+@media (max-width: 800px) {
     .container {
         flex-direction: column;
     }
