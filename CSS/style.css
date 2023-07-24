@@ -130,7 +130,7 @@ body {
 }
 
 .right #about_me {
-    margin-top: -6.5rem;
+    margin-top: -6rem;
     padding: 3.5em;
     padding-bottom: 0px;
     /* font-size: 1.5em; */
@@ -426,4 +426,8 @@ highlight:hover {
 
 ion-icon{
     color: var(--font-white-color);
+}
+
+.title:focus-visible{
+
 }
