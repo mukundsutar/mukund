@@ -25,6 +25,8 @@ body {
     /* border: 1px solid black; */
     height: 100%;
     /* overflow-x: hidden; */
+
+    z-index: 1;
 }
 
 .left {
@@ -41,6 +43,8 @@ body {
     max-width: 30vw;
     /* margin: 50px; */
     /* padding: 50px; */
+
+    z-index: 5;
 }
 
 .right {
@@ -54,7 +58,7 @@ body {
     background-repeat: no-repeat;
     padding-right: 0px;
     /* padding-left: 200px; */
-    z-index: -1;
+    z-index: 10;
     /* filter: blur(5px); */
 
     overflow: hidden;
@@ -394,6 +398,7 @@ highlight:hover {
 
     #skill {
         text-align: justify;
+        z-index: 10;
     }
 
     #title {
@@ -424,4 +429,4 @@ highlight:hover {
 
 ion-icon{
     color: var(--font-white-color);
-}
+} 
