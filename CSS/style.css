@@ -98,7 +98,7 @@ body {
 
 #title {
     font-family: 'Playfair Display', serif;
-    font-size: 69px;
+    font-size: 4rem;
     color: aliceblue;
     /* padding: 250px 100px; */
     /* padding-top: 3.8em;
@@ -111,7 +111,7 @@ body {
     color: #242423;
 }
 
-#title span span {
+.name-title {
     background-color: #242423;
 }
 
@@ -352,7 +352,7 @@ highlight {
 
 highlight:hover {
     text-decoration: underline 3px solid black;
-    color: #EE7A7C;
+    color: var(--main-dark-blue-color);
 
 }
 
@@ -427,6 +427,6 @@ highlight:hover {
     word-spacing: -2px;
 }
 
-ion-icon{
+ion-icon {
     color: var(--font-white-color);
-} 
+}
