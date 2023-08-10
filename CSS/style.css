@@ -360,62 +360,7 @@ highlight:hover {
     display: inline
 }
 
-/* for smaller screens */
-@media (max-width: 800px) {
-    .container {
-        flex-direction: column;
-    }
 
-    .left {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-    }
-
-    .right {
-        padding-left: 3em;
-        padding-right: 3em;
-        font-size: 1em;
-    }
-
-    .desc {
-        padding-left: 0px;
-        font-size: 1.5em;
-        /* text-align: justify; */
-    }
-
-    .right #about_me {
-        padding-left: 0px;
-        margin-top: 23em;
-        text-align: justify;
-        padding-right: 1.1em;
-    }
-
-    right-desc {
-        font-size: 1.2em;
-        /* text-align: justify; */
-    }
-
-    #skill {
-        text-align: justify;
-        z-index: 10;
-    }
-
-    #title {
-        padding-top: 4.5em;
-        padding-left: .2em;
-        font-size: 3.5em;
-        text-align: left;
-    }
-
-    .email {
-        word-wrap: break-word;
-    }
-
-    .profile img {
-        padding-top: 2.5em;
-    }
-}
 
 .right>#about_me,
 .right>#skill,
