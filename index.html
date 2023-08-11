@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="CSS/photo-animation/photo-animation.css">
     <link rel="stylesheet" href="CSS/tag.css">
     <link rel="stylesheet" href="CSS/scramble.css">
+    <link rel="stylesheet" href="CSS/responsive-navbar.css">
 
     <title>Mukund Sutar - Software Engineer</title>
 
@@ -60,8 +61,51 @@
 
             <div class="buttons"><a href="#contact">Contact</a>
             </div>
+
+            
         </div>
+
+
         <div class="right">
+
+            <div id="menuDemo">
+                <!--start CssMenu-->
+                <div class="menu-icon-wrapper">
+                    <div class="menu-icon" onclick="toggleCssMenu(this)">
+                        <div class="three-line">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div id="cssmenu">
+                    <ul>
+                        <li><a href="#about_me">About Me</a></li>
+                        <li><a href="#skill">Skills</a></li>
+                        <li><a href="#res">Projects</a></li>
+                        <li><a href="documents/Mukund Sutar_Resume.pdf">Resume / CV</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+                <script>
+                    function toggleCssMenu(icon) {
+                        var cssmenu = document.getElementById('cssmenu');
+                        if (icon.className.indexOf('active') == -1) {
+                            icon.className = 'menu-icon active';
+                            cssmenu.style.display = "block";
+                            setTimeout(function(){cssmenu.className = 'active';},0);            
+                        }
+                        else {
+                            icon.className = 'menu-icon';
+                            cssmenu.className = '';
+                            setTimeout(function(){cssmenu.style.display = "none";},411); 
+                        }
+                    }
+                </script>
+                <!--end CssMenu-->
+            </div>
+
             <div id="title">
                 <img id="slideImage" src="img/output.webp" alt="Imagine a sky background here">
 
@@ -79,7 +123,6 @@
                     </div>
                 </span>
             </div>
-
 
             <div class="desc" id="about_me">About Me:<br><right-desc>
                     <!-- I Solemnly swear that I am a Developer.  <br>-->
@@ -258,9 +301,9 @@
     </script>
     <script src="js/accord.js"></script>
     <script src="js/scramble.js"></script>
-    <!-- <script src="js/ImageScroll.js"></script> -->
+    <!-- <script src="jQuery/responsive.js"></script> -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <!-- <script src="js/changeColor.js"></script> -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
