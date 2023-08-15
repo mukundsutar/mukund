@@ -207,6 +207,7 @@
     display: none;
 }
 
+
 @media only screen and (min-width: 801px) {
     #cssmenu{
         display: none;

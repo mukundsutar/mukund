@@ -47,13 +47,6 @@ body {
     z-index: 5;
 }
 
-/* .menuDemo{
-    position: fixed;
-    posi
-    visibility: hidden;
-    display: none;
-} */
-
 .right {
     display: flex;
     background-color: var(--bg-blue-color);

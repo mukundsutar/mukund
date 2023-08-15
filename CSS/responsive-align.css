@@ -1,0 +1,16 @@
+@media only screen and (max-width: 800px) {
+    .right > #about_me, .right > #skill, .right > #res, .right > #contact{
+        padding: 3rem;
+        padding-top: 6rem;
+        margin: 0px;
+        margin-top: 0px;
+    }
+
+    #title{
+        display: none;
+    }
+
+    right-desc{
+        font-size: 1.75rem;
+    }
+}
