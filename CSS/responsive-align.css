@@ -1,16 +1,26 @@
+@media only screen and (min-width: 800px) {
+    #userImage {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 800px) {
-    .right > #about_me, .right > #skill, .right > #res, .right > #contact{
+
+    .right>#about_me,
+    .right>#skill,
+    .right>#res,
+    .right>#contact {
         padding: 3rem;
-        padding-top: 6rem;
+        /* padding-top: 9rem; */
         margin: 0px;
         margin-top: 0px;
     }
 
-    #title{
+    #title {
         display: none;
     }
 
-    right-desc{
+    right-desc {
         font-size: 1.75rem;
     }
 }

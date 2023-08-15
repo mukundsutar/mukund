@@ -1,7 +1,7 @@
 #menuDemo{
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 1.5rem;
+    left: 1.5rem;
     /* display: none; */
 }
 
@@ -321,12 +321,12 @@
 }
 
 .menu-icon {
-    padding: 9px;
+    padding: 10px;
     cursor: pointer;
     outline: none;
-    background-color: #000000;
+    background-color: #0a2463;
     border: 1px solid transparent;
-    border-radius: 3px;
+    border-radius: 4px;
     transition: all 0.25s ease-out;
     user-select: none;
     box-sizing: content-box;
@@ -436,7 +436,7 @@
 
 /*--Style the menu-icon--*/
 .menu-icon {
-    border-radius: 50%;
+    border-radius: 15%;
     margin-right: 12px;
 }
 
