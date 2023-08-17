@@ -5,7 +5,6 @@
 }
 
 @media only screen and (max-width: 800px) {
-
     .right>#about_me,
     .right>#skill,
     .right>#res,
@@ -24,7 +23,17 @@
         font-size: 1.75rem;
     }
 
-    #userImage > .snip1113{
+    #userImage>.snip1113 {
         display: initial;
+    }
+
+    #text-email {
+        word-spacing: -2px;
+    }
+}
+
+@media only screen and (max-width: 561px) {
+#text-email {
+        word-spacing: -3px;
     }
 }
