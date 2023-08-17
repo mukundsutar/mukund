@@ -30,10 +30,8 @@
     #text-email {
         word-spacing: -2px;
     }
-}
 
-@media only screen and (max-width: 561px) {
-#text-email {
-        word-spacing: -3px;
+    #contact>right-desc{
+        font-size: 1.1rem;
     }
 }
