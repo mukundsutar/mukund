@@ -19,7 +19,7 @@
     font-size: 0;
     text-align: center;
     color: #FFFFFF;
-    background-color: #651d32;
+    background-color: #121619;
     border: transparent;
     margin: 0;
     padding: 0;
@@ -57,7 +57,7 @@
 #cssmenu li:hover>span,
 #cssmenu li:hover>a {
     color: #FFFFFF;
-    background-color: #651d32;
+    background-color: #121619;
 }
 
 /*Sub level items
@@ -229,7 +229,7 @@
         width: 100%;
         max-width: 100vw;
         display: none;
-        background-color: #651d32;
+        background-color: #121619;
         border: 1px solid rgba(0, 0, 0, 0.2);
         box-sizing: border-box;
         z-index: 999999990;
@@ -324,7 +324,7 @@
     padding: 10px;
     cursor: pointer;
     outline: none;
-    background-color: #0a2463;
+    background-color: #121619;
     border: 1px solid transparent;
     border-radius: 4px;
     transition: all 0.25s ease-out;

@@ -1,0 +1,52 @@
+@media only screen and (min-width: 800px) {}
+
+@media only screen and (max-width: 800px) {
+    :root {
+        --main-dark-color: #121619;
+        --secondary-dark-color: #2d4739;
+        --accent-color: #09814a;
+        --font-white-color: #F7F7FF;
+        --primary-heading-color: #bcb382;
+        --secondary-heading-color: #e5c687;
+    }
+
+    .right {
+        background-color: #2d4739;
+        text-align: justify;
+        word-spacing: -2px;
+    }
+
+    .desc a {
+        color: var(--primary-heading-color);
+    }
+
+    #res>under,
+    #res>under>a {
+        color: var(--secondary-heading-color);
+    }
+
+    #contact> button{
+        background-color: var(--secondary-dark-color);
+    }
+
+    .backToTop{
+        width: 100vw;
+        height: 8vh;
+    }
+    
+    #up{
+        background-color: var(--main-dark-color);
+        color: var(--secondary-heading-color);
+    
+        width: 100%;
+        height: 100%;
+    }
+
+    #up:hover{
+        color: var(--secondary-heading-color);
+    }
+
+    #up:active{
+        color: var(--accent-color);
+    }
+}

@@ -23,4 +23,8 @@
     right-desc {
         font-size: 1.75rem;
     }
+
+    #userImage > .snip1113{
+        display: initial;
+    }
 }

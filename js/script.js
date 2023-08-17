@@ -5,9 +5,12 @@ function copyTextEmail() {
 }
 
 function copyTextPhone() {
-  const text = document.getElementById('text-phone').innerText
-  const btnText = document.getElementById('btn')
-  navigator.clipboard.writeText(text);
+  // const text = document.getElementById('text-phone').innerText
+  // const btnText = document.getElementById('btn')
+  // navigator.clipboard.writeText(text);
+  /* Copy text into clipboard */
+  navigator.clipboard.writeText
+    ("Geeksforgeeks is best learning platform.");
 }
 
 function scrollChange() {
@@ -61,12 +64,12 @@ function findText() {
 }
 
 function scrollMove() {
-  var observer = new IntersectionObserver(function(entries) {
+  var observer = new IntersectionObserver(function (entries) {
     // isIntersecting is true when element and viewport are overlapping
     // isIntersecting is false when element and viewport don't overlap
-    if(entries[0].isIntersecting === true)
+    if (entries[0].isIntersecting === true)
       console.log('Element has just become visible in screen');
   }, { threshold: [0] });
-  
+
   observer.observe(document.querySelector("#main-container"));
 }

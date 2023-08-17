@@ -260,14 +260,6 @@ button:hover {
     }
 } */
 
-
-#UP-icon {
-    width: 100%;
-    /* width: 47.5em; */
-    background-color: var(--main-dark-blue-color);
-    height: 2.2rem;
-}
-
 /* individual language css */
 java-lang {
     color: #ee82ee;
@@ -374,4 +366,29 @@ highlight:hover {
 
 ion-icon {
     color: var(--font-white-color);
+}
+
+.backToTop{
+    width: 70vw;
+    height: 8vh;
+}
+
+#up{
+    background-color: var(--main-dark-blue-color);
+    color: var(--font-white-color);
+
+    width: 100%;
+    height: 100%;
+}
+
+#up:hover{
+    color: var(--bg-blue-color);
+}
+
+#up:active{
+    color: var(--font-section-color);
+}
+
+#userImage > .snip1113{
+    display: none;
 }

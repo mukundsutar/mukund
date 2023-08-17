@@ -7,9 +7,12 @@ function copyTextEmail() {
 }
 
 function copyTextPhone() {
-  var text = document.getElementById('text-phone').innerText;
-  var btnText = document.getElementById('btn');
-  navigator.clipboard.writeText(text);
+  // const text = document.getElementById('text-phone').innerText
+  // const btnText = document.getElementById('btn')
+  // navigator.clipboard.writeText(text);
+
+  /* Copy text into clipboard */
+  navigator.clipboard.writeText("Geeksforgeeks is best learning platform.");
 }
 
 function scrollChange() {
