@@ -120,6 +120,11 @@ h1.tag {
     color: #fff;
 }
 
+.tag-boot {
+    background-image: linear-gradient(90deg,#8911fb,#7e10f8);
+    color: #fff;
+}
+
 .tag-cpp {
     background: #044d84;
     color: #fff;
@@ -158,6 +163,21 @@ h1.tag {
 .tag-sql {
     background: #087992;
     color: #FFA733;
+}
+
+.tag-mongo{
+    background: #007A58;
+    color: #001e2b;
+}
+
+.tag-git{
+    background-image: linear-gradient(90deg,#f4f269,#5cb270);
+    color: #000;
+}
+
+.tag-postman{
+    background-image: linear-gradient(90deg,#007A58,#42047e);
+    color: #fff;
 }
 
 .tag-leadership {

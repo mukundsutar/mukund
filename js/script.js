@@ -73,3 +73,9 @@ function scrollMove() {
 
   observer.observe(document.querySelector("#main-container"));
 }
+
+
+
+  function scrollToElement() {
+    document.getElementById("about_me").scrollIntoView();
+  }

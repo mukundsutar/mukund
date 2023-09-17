@@ -21,32 +21,34 @@
     }
 
     #res>under,
-    #res>under>a {
+    #res>under>a,
+    #res>div>under,
+    #res>div>under>a {
         color: var(--secondary-heading-color);
     }
 
-    #contact> button{
+    #contact>button {
         background-color: var(--secondary-dark-color);
     }
 
-    .backToTop{
+    .backToTop {
         width: 100vw;
         height: 8vh;
     }
-    
-    #up{
+
+    #up {
         background-color: var(--main-dark-color);
         color: var(--secondary-heading-color);
-    
+
         width: 100%;
         height: 100%;
     }
 
-    #up:hover{
+    #up:hover {
         color: var(--secondary-heading-color);
     }
 
-    #up:active{
+    #up:active {
         color: var(--accent-color);
     }
 }
